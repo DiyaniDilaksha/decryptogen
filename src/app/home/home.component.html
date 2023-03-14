@@ -1,235 +1,4 @@
-<style>
-    @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@600&family=Fira+Sans+Condensed:wght@300&family=Fira+Sans:wght@300;400&display=swap');
-   .headersection{
-        color: white;
-        background: url(../../../../assets/img/header-abstaract-lines-bg.svg) no-repeat center;;
-        height: auto;
-        background-color: #1A1513;
-        background-size: 100% auto;
-    }
-    .headersection h1{
-        margin-left: 160px; 
-        font-family: 'Fira Code', monospace;
-        font-weight: 600;
-        font-size: 60px;
-        padding-top: 70px;
-    }
-    .headersection p{
-        margin-left: 160px;
-        font-family: 'Fira Sans', sans-serif;
-        font-weight: 300;
-        font-size: 22px;
-        padding-top: 30px;
-    }
-    .underline{
-        text-decoration: underline;
-        text-decoration-color: #F15A29;
-    }   
-   .btn-solutions{
-          color: #262120;
-          border: 2px;
-          background-color: #F15A29;
-          padding: 20px;
-          border-radius: 35px;
-          width: auto;
-          height: auto;
-          background-origin: border-box;
-          margin-top: 40px;
-          font-family: 'Fira Code', monospace;
-          font-weight: 500;
-          font-size: 16px;
-          margin-right: 10px;  
-    }
-   .btn-solutions:hover 
-    {
-          background-color: #EC8974; 
-    }
-    .talk{
-          color: white;
-          background-color: transparent;
-          border: 2px solid #F15A29;
-          padding: 20px;
-          border-radius: 35px;
-          width: auto;
-          height: auto;
-          margin-top: 40px;
-          background-origin: border-box;
-          font-family: 'Fira Code', monospace;
-          font-weight: 500;
-          font-size: 16px;
-          margin-left: 10px;
-    }
-    .talk:hover{
-        background-color: white;
-        color: #262120;
-    }
-
-    /*cloud section*/
-    .cloudsection h1 , .softwaresection h1 , .securitysection h1{      
-        text-align: center;
-        margin-top: 100px;
-        color: #F15A29;
-        font-family: 'Fira Code', monospace;
-        font-weight: 600;
-        font-size: 60px;
-    }
-    .cloudsection p , .softwaresection p, .securitysection p{
-        font-family: 'Fira Sans', sans-serif;
-        font-weight: 300;
-        font-size: 22px;
-        text-align: center;
-        color: #1A1513;
-    }
-    .cloudsection img{
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .cloudsection .para{
-        font-family: 'Fira Sans', sans-serif;
-        font-weight: 300;
-        font-size: 16px;
-        color: #2B2B2B;;
-    }
-    .talk2{
-        color:#1A1513 ;
-        background-color: transparent;
-        border: 2px solid #F15A29;
-        padding: 20px;
-        border-radius: 35px;
-        width: auto;
-        text-align: center; 
-        background-origin: border-box;
-        margin-top: 20px;
-        font-family: 'Fira Code', monospace;
-        font-weight: 500;
-        font-size: 16px;
-        margin-left: 10px;
-    }
-    .cloudsection .talk2:hover ,.moreservicessection .talk2:hover, .talktoussection .talk2:hover{
-        background-color:#1A1513;
-        color: white;
-    }
-    .softwaresection .container h2{
-        font-family: 'Fira Code', monospace;
-        font-weight: 600;
-        font-size: 20px;
-        color: #F15A29;
-    }
-    .softwaresection h3{
-        font-family: 'Fira Sans', sans-serif;
-        font-weight: 300;
-        font-size: 16px;
-        color: #2B2B2B;
-    }
-    .softwaresection .col-sm {
-        margin-left: 70px;
-    }
-    .securitysection{
-        background: url(../../../../assets/img/abstract-lines-bg-2.svg) no-repeat center;;
-        height: auto;
-        background-color: #1A1513;
-        background-size: 100% auto;  
-    }
-    .securitysection h2
-    {
-        font-family: 'Fira Code', monospace;
-        font-weight: 600;
-        font-size: 20px;
-        color: #F15A29;
-    }
-    .securitysection h3
-    {
-        font-family: 'Fira Sans', sans-serif;
-        font-weight: 300;
-        font-size: 16px;
-        color: #FEB39A;
-    }
-    .securitysection p{
-        font-family: 'Fira Sans', sans-serif;
-        font-weight: 300;
-        font-size: 22px;
-        color: white; 
-    }
-    .verticalLine {
-        height: 300px;
-        border-right: 1px solid #B1B1B1;
-        position: absolute;
-        right: 50%;
-    }
-    .moreservicessection p{
-        font-family: 'Fira Code', monospace;
-        font-weight: 400;
-        font-size: 24px;
-        text-align: center;
-        color: #2B2B2B;
-        margin-top: 100px;
-    }
-    .verticalLine2 {
-        height: 300px;
-        border-right: 1px solid #64453B;
-        position: absolute;
-        right: 50%;     
-    }
-    .summerysection{
-        background-color: #1A1513;
-        background-size: auto;
-    }
-    .summerysection h2{
-        font-family: 'Fira Code', monospace;
-        font-weight: 450;
-        font-size: 16px;
-        color: white;
-        margin-left: 160px; 
-    }
-    .summerysection h3{
-        font-family: 'Fira Code', monospace;
-        font-weight: 600;
-        font-size: 48px;
-        color: #F15A29;
-        margin-left: 160px; 
-    }
-    .summerysection p{
-        font-family: 'Fira Sans', sans-serif;
-        font-style: normal;
-        font-weight: 300;
-        font-size: 20px;
-        color: white;
-        text-align: left;
-    }
-    .talktoussection h1{
-        font-family: 'Fira Code', monospace;
-        font-weight: 600;
-        font-size: 22px;
-        text-align: left;
-        color: #2B2B2B;
-        margin-left: 160px;
-    }
-
-    .talktoussection h2{
-        font-family: 'Fira Code', monospace;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 48px;
-        text-align: left;
-        margin-left: 160px;
-        color: #F15A29;
-    }
-    .talktoussection p{
-        font-family: 'Fira Sans', sans-serif;
-        font-style: normal;
-        font-weight: 300;
-        font-size: 20px;
-        color: #2B2B2B;
-        margin-left: 160px;
-        text-align: left;
-
-    }
-</style>
-
-
 <!-- headersection !-->
-
 <div class="headersection">
     <h1>
       Let’s <span class="underline">Empower</span> Your <br>
@@ -307,13 +76,13 @@
 
           <div class="row">
             <div class="col-sm">
-                <h3>Our experienced team provides expert application<br>
-                    development and software maintenance services to help your<br>
-                    business stay competitive in today's digital landscape. From<br>
-                    initial concept to final deployment, we work closely with you<br>
-                    to deliver high-quality, customized solutions that meet your<br>
-                    specific needs. Our ongoing maintenance and support<br>
-                    ensures your software runs smoothly, efficiently and stays up<br>
+                <h3>Our experienced team provides expert application
+                    development and software maintenance services to help your
+                    business stay competitive in today's digital landscape. From
+                    initial concept to final deployment, we work closely with you
+                    to deliver high-quality, customized solutions that meet your
+                    specific needs. Our ongoing maintenance and support
+                    ensures your software runs smoothly, efficiently and stays up
                     to date with the latest technologies</h3><br>
                     <img src="../../../../assets/img/workflow.svg">
             </div>
@@ -322,13 +91,13 @@
             </div>
             <div class="col-sm">
                 <h2>Cross-Platform Integration</h2><br>
-            <h3>Our cross-platform integration services bridge the gap<br>
-                between different systems, ensuring seamless communication<br>
-                and efficient data exchange. We have expertise in integrating<br>
-                various systems and platforms, such as CRM, ERP, and e-commerce,<br>
-                 to enhance your business operations. Our team of<br>
-                 experts will work closely with you to design and implement a<br>
-                 tailored solution that meets your unique business<br>
+            <h3>Our cross-platform integration services bridge the gap
+                between different systems, ensuring seamless communication
+                and efficient data exchange. We have expertise in integrating
+                various systems and platforms, such as CRM, ERP, and e-commerce,
+                 to enhance your business operations. Our team of
+                 experts will work closely with you to design and implement a
+                 tailored solution that meets your unique business
                   requirements. Trust us to streamline your business processes and increase efficiency</h3>
             </div>
             </div> 
@@ -361,13 +130,17 @@
         <div class="row">
             <div class="col-sm" >
                 <h2 style="text-align: right;margin-right: -10px;">Standards-based <br>Security Testing</h2>
-                <h3 style="text-align: right;margin-right: -10px;">Expert IT security services that adhere to industry standards<br>
-                    and best practices, ensuring the protection of your<br>data and systems.</h3>
-            </div>
-            <div class="verticalLine2">
-               
+                <h3 style="text-align: right;margin-right: -10px;">Expert IT security services that adhere to industry standards
+                    and best practices, ensuring the protection of your data and systems.</h3>
             </div>
             <div class="col-sm">
+                <img src="../../assets/img/target.svg">
+            </div>
+            <!-- <div class="verticalLine2">
+               
+            </div> -->
+            <div class="col-sm">
+               
             </div>
         </div>
 
@@ -376,13 +149,16 @@
             <div class="col-sm">
                 
             </div>
-            <div class="verticalLine2">
-               
+            <div class="col-sm">
+                    <img src="../../assets/img/standards.svg">
             </div>
+            <!-- <div class="verticalLine2">
+               
+            </div> -->
             <div class="col-sm">
                 <h2>Compliance-Based<br> Security Testing</h2>
-                <h3>Expert IT security services to ensure compliance with<br>
-                    industry regulations, including risk assessments, penetration<br>
+                <h3>Expert IT security services to ensure compliance with
+                    industry regulations, including risk assessments, penetration
                     testing and incident response.
 
                 </h3>
@@ -392,14 +168,17 @@
         <div class="row">
             <div class="col-sm" >
                 <h2 style="text-align: right;margin-right: -10px;">Infrastructure<br>Security Testing</h2>
-                <h3 style="text-align: right;margin-right: -10px;">Expert infrastructure security testing services to identify and<br>
-                    mitigate vulnerabilities in your network, systems<br>and applications
+                <h3 style="text-align: right;margin-right: -10px;">Expert infrastructure security testing services to identify and
+                    mitigate vulnerabilities in your network, systems and applications
 
                 </h3>
             </div>
-            <div class="verticalLine2">
-               
+            <div class="col-sm" >
+                <img src="../../assets/img/security-lock.svg">
             </div>
+            <!-- <div class="verticalLine2">
+               
+            </div> -->
             <div class="col-sm">
             </div>
         </div>
@@ -411,9 +190,13 @@
             </div>
 
             <div class="col-sm">
+                <img src="../../assets/img/data-encryption.svg">
+            </div>
+
+            <div class="col-sm">
                 <h2>CMS Security Testing</h2>
-                <h3>Expert CMS security testing services to identify and<br>
-                    remediate vulnerabilities in your content<br>
+                <h3>Expert CMS security testing services to identify and
+                    remediate vulnerabilities in your content
                     management systems.
 
                 </h3>
@@ -423,18 +206,21 @@
         <div class="row">
             <div class="col-sm" >
                 <h2 style="text-align: right;margin-right: -10px;">Threat Modelling</h2>
-                <h3 style="text-align: right;margin-right: -10px;">Expert threat modeling services to proactively identify and<br>mitigate potential security threats to your systems and data</h3>
+                <h3 style="text-align: right;margin-right: -10px;">Expert threat modeling services to proactively identify and mitigate potential security threats to your systems and data</h3>
             </div>
 
             <div class="col-sm">
+                <img src="../../assets/img/grand-master-key.svg">
             </div>
+            
+            <div class="col-sm">
+            </div>
+
         </div>
 
 
 
 </div>
-
-
 
 <!-- moreservicessection !-->
 <div class="moreservicessection">
@@ -453,14 +239,13 @@
     </p>
 </div>
 
-
 <!-- summerysection !-->
 <div class="summerysection">
    <h2>In summary</h2><br>
    <h3>Our Story</h3><br> 
    <div class="row">
     <div class="col-sm">
-        
+        <img src="../../assets/img/our-story-img.jpg"><br><br><br>
     </div>
     <div class="col-sm">
         <p>Drawing from the many years of expertise of our 
@@ -482,7 +267,7 @@
    <h3>Our Team</h3><br>
    <div class="row">
     <div class="col-sm">
-        
+        <img src="../../assets/img/our-team-img.jpg"><br><br><br>
     </div>
     <div class="col-sm">
         <p>We take pride in our ability to adapt our operating 
@@ -497,11 +282,6 @@
     </div>
 </div>
 </div>
-
-
-
-
-
 
 <!-- talktoussection !-->
 <div class="talktoussection">

@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@600&family=Fira+Sans+Condensed:wght@300&family=Fira+Sans:wght@300;400&display=swap');
+   .headersection{
+        color: white;
+       background: url(../../assets/img/header-abstaract-lines-bg.svg) no-repeat center;
+        height: auto;
+        background-color: #1A1513;
+        background-size: 100% auto;
+    }
+    .headersection h1{
+        margin-left: 160px; 
+        font-family: 'Fira Code', monospace;
+        font-weight: 600;
+        font-size: 60px;
+        padding-top: 70px;
+    }
+    .headersection p{
+        margin-left: 160px;
+        font-family: 'Fira Sans', sans-serif;
+        font-weight: 300;
+        font-size: 22px;
+        padding-top: 30px;
+    }
+    .underline{
+        text-decoration: underline;
+        text-decoration-color: #F15A29;
+    }   
+   .btn-solutions{
+          color: #262120;
+          border: 2px;
+          background-color: #F15A29;
+          padding: 20px;
+          border-radius: 35px;
+          width: auto;
+          height: auto;
+          background-origin: border-box;
+          margin-top: 40px;
+          font-family: 'Fira Code', monospace;
+          font-weight: 500;
+          font-size: 16px;
+          margin-right: 10px;  
+    }
+   .btn-solutions:hover 
+    {
+          background-color: #EC8974; 
+    }
+    .talk{
+          color: white;
+          background-color: transparent;
+          border: 2px solid #F15A29;
+          padding: 20px;
+          border-radius: 35px;
+          width: auto;
+          height: auto;
+          margin-top: 40px;
+          background-origin: border-box;
+          font-family: 'Fira Code', monospace;
+          font-weight: 500;
+          font-size: 16px;
+          margin-left: 10px;
+    }
+    .talk:hover{
+        background-color: white;
+        color: #262120;
+    }
+
+    /*cloud section*/
+    .cloudsection h1 , .softwaresection h1 , .securitysection h1{      
+        text-align: center;
+        margin-top: 100px;
+        color: #F15A29;
+        font-family: 'Fira Code', monospace;
+        font-weight: 600;
+        font-size: 60px;
+    }
+    .cloudsection p , .softwaresection p, .securitysection p{
+        font-family: 'Fira Sans', sans-serif;
+        font-weight: 300;
+        font-size: 22px;
+        text-align: center;
+        color: #1A1513;
+    }
+    .cloudsection img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .cloudsection .para{
+        font-family: 'Fira Sans', sans-serif;
+        font-weight: 300;
+        font-size: 16px;
+        color: #2B2B2B;;
+    }
+    .talk2{
+        color:#1A1513 ;
+        background-color: transparent;
+        border: 2px solid #F15A29;
+        padding: 20px;
+        border-radius: 35px;
+        width: auto;
+        text-align: center; 
+        background-origin: border-box;
+        margin-top: 20px;
+        font-family: 'Fira Code', monospace;
+        font-weight: 500;
+        font-size: 16px;
+        margin-left: 10px;
+    }
+    .cloudsection .talk2:hover ,.moreservicessection .talk2:hover, .talktoussection .talk2:hover{
+        background-color:#1A1513;
+        color: white;
+    }
+    .softwaresection .container h2{
+        font-family: 'Fira Code', monospace;
+        font-weight: 600;
+        font-size: 20px;
+        color: #F15A29;
+    }
+    .softwaresection h3{
+        font-family: 'Fira Sans', sans-serif;
+        font-weight: 300;
+        font-size: 16px;
+        color: #2B2B2B;
+    }
+    .softwaresection .col-sm {
+        margin-left: 70px;
+    }
+    .securitysection{
+        background: url(../../assets/img/abstract-lines-bg-2.svg) no-repeat center;
+        height: auto;
+        background-color: #1A1513;
+        background-size: 100% auto;  
+    }
+    .securitysection h2
+    {
+        font-family: 'Fira Code', monospace;
+        font-weight: 600;
+        font-size: 20px;
+        color: #F15A29;
+    }
+    .securitysection h3
+    {
+        font-family: 'Fira Sans', sans-serif;
+        font-weight: 300;
+        font-size: 16px;
+        color: #FEB39A;
+    }
+    .securitysection p{
+        font-family: 'Fira Sans', sans-serif;
+        font-weight: 300;
+        font-size: 22px;
+        color: white; 
+    }
+    .verticalLine {
+        height: 300px;
+        border-right: 1px solid #B1B1B1;
+        position: absolute;
+        right: 50%;
+    }
+    .moreservicessection p{
+        font-family: 'Fira Code', monospace;
+        font-weight: 400;
+        font-size: 24px;
+        text-align: center;
+        color: #2B2B2B;
+        margin-top: 100px;
+    }
+    .verticalLine2 {
+        height: 300px;
+        border-right: 1px solid #64453B;
+        position: absolute;
+        right: 50%;     
+    }
+    .summerysection{
+        background-color: #1A1513;
+        background-size: auto;
+    }
+    .summerysection h2{
+        font-family: 'Fira Code', monospace;
+        font-weight: 450;
+        font-size: 16px;
+        color: white;
+        margin-left: 160px; 
+    }
+    .summerysection h3{
+        font-family: 'Fira Code', monospace;
+        font-weight: 600;
+        font-size: 48px;
+        color: #F15A29;
+        margin-left: 160px; 
+    }
+    .summerysection p{
+        font-family: 'Fira Sans', sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+        color: white;
+        text-align: left;
+    }
+
+    .summerysection img{
+        width: 300px;
+        height: 300px;
+        border-radius: 200px;
+        margin-left: 160px;
+       
+    }
+    .talktoussection h1{
+        font-family: 'Fira Code', monospace;
+        font-weight: 600;
+        font-size: 22px;
+        text-align: left;
+        color: #2B2B2B;
+        margin-left: 160px;
+    }
+
+    .talktoussection h2{
+        font-family: 'Fira Code', monospace;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 48px;
+        text-align: left;
+        margin-left: 160px;
+        color: #F15A29;
+    }
+    .talktoussection p{
+        font-family: 'Fira Sans', sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+        color: #2B2B2B;
+        margin-left: 160px;
+        text-align: left;
+    }
