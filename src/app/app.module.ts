@@ -4,6 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule, routingComponents } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
+import { BlogComponent } from './blog/blog.component';
 
 
 
@@ -13,6 +14,7 @@ import { HomeComponent } from './home/home.component';
     AppComponent,
     routingComponents,
     HomeComponent,
+    BlogComponent,
 
   ],
   imports: [
