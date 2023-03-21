@@ -9,12 +9,13 @@ import { BlogComponent } from './blog/blog.component';
 
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
     routingComponents,
     HomeComponent,
-    BlogComponent,
+    BlogComponent
 
   ],
   imports: [

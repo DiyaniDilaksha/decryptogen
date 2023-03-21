@@ -1,43 +1,86 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@600&family=Fira+Sans+Condensed:wght@300&family=Fira+Sans:wght@300;400&display=swap');
-header {
-    display: flex;
-    align-items: center;
-    line-height: 20px;
-    background-color: #1A1513;
-  }
-  .nav-item{
-    margin-left: 115px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    justify-content: end;
-  }
-  .nav-item li{
-    position: relative;
-  }
-  .nav-item a:hover{
-    color: #F15A29;  
-  }
-  .nav-item a{
-    font-family: 'Fira Sans', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-    color: #FFFFFF;
-  }
-  .section1 {
-    background-color: #1A1513;
-  }
-  .section1 h1{
-    font-family: 'Fira Code', monospace;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 60px;
-    color: #FFFFFF;
-    margin-left: 150px;
-  }
-  #contact-btn:hover{
-    background-color: white;
-    color:  #1A1513;;
-  }
 
+header{
+  padding: 10px 0;
+  background: #1A1513;
+}
+.menu, .logo{
+  margin-top: 14px;
+}
+.menu ul{
+  padding: 0;
+  margin: 0;
+}
+.nav-item{
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.menu ul li{
+  list-style: none;
+  color: white;
+  display: inline-block;
+  font-size: 20px;
+  margin-left: 24px;
+  padding-left: 10px;
+}
+.menu ul li a{
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 16px;
+}
+
+.menu ul li:hover{
+  color: #F15A29;
+  cursor: pointer;
+}
+
+#contact-btn
+{
+  border-radius: 20px;
+  border: 1px solid white;
+  color:white;
+  font-family: "Fira Code", monospace;
+  font-weight: 500;
+ width: 140px;
+ padding-top: 5px;
+ padding-bottom: 5px;
+ align-self: center;
+}
+
+#contact-btn a:hover, #contact-btn:hover{
+      background-color:white;
+      color:#1A1513;
+  
+}
+@media only screen and(max-width:999px) {
+  .menu{
+    position: absolute;
+    right: -280px;
+    top:64px;
+    background-color: #1A1513;
+    width: 280px;
+    height: 100%;
+  }
+  .menu ul li{
+    display: block;
+    text-align: left;
+    margin: 0;
+    padding: 10px 0 10px 26px;
+    border-bottom: none;
+
+  }
+  .menu_icon{
+    display: inline-block;
+    position: relative;
+    right: 0;
+    top: 9px;
+  }
+  .menu_icon span{
+    width: 32px;
+    height: 3px;
+    background-color:white;
+    display: block;
+  }
+  .menu_icon span:nth-child(2){
+    margin: 4px 0;
+  }
+}

@@ -85,7 +85,7 @@
         margin-left: auto;
         margin-right: auto;
     }
-    .cloudsection .para{
+    .cloudsection #para{
         font-family: 'Fira Sans', sans-serif;
         font-weight: 300;
         font-size: 16px;
@@ -110,7 +110,35 @@
         background-color:#1A1513;
         color: white;
     }
-    .softwaresection .container h2{
+
+    #circle {
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        background: #FBCBBC;
+        border-radius: 50px;
+      
+      }
+      #circle1 {
+        position: absolute;
+        width: 305px;
+        height: 305px;
+        background: #3C2821;
+        border-radius: 150px;
+        margin-left: 130px;
+       
+      
+      }
+      #circle2 {
+        position: absolute;
+        width: 305px;
+        height: 305px;
+        border:1px solid #FBCBBC;
+        border-radius: 150px;
+        margin-left: 180px;
+       
+      }
+    .softwaresection h2{
         font-family: 'Fira Code', monospace;
         font-weight: 600;
         font-size: 20px;
@@ -124,6 +152,11 @@
     }
     .softwaresection .col-sm {
         margin-left: 70px;
+    }
+
+    .softwaresection img{
+        margin-left: 50px;
+        margin-top: 10px;
     }
     .securitysection{
         background: url(../../assets/img/abstract-lines-bg-2.svg) no-repeat center;
@@ -157,7 +190,7 @@
         position: absolute;
         right: 50%;
     }
-    .moreservicessection p{
+    .moreservicessection h4{
         font-family: 'Fira Code', monospace;
         font-weight: 400;
         font-size: 24px;
@@ -174,6 +207,7 @@
     .summerysection{
         background-color: #1A1513;
         background-size: auto;
+        padding-block: 96px;
     }
     .summerysection h2{
         font-family: 'Fira Code', monospace;
@@ -203,7 +237,7 @@
         height: 300px;
         border-radius: 200px;
         margin-left: 160px;
-       
+     
     }
     .talktoussection h1{
         font-family: 'Fira Code', monospace;
