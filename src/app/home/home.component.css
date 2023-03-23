@@ -121,8 +121,8 @@
       }
       #circle1 {
         position: absolute;
-        width: 305px;
-        height: 305px;
+        width: 265px;
+        height: 265px;
         background: #3C2821;
         border-radius: 150px;
         margin-left: 130px;
@@ -130,12 +130,13 @@
       
       }
       #circle2 {
-        position: absolute;
-        width: 305px;
-        height: 305px;
+        
+        width: 265px;
+        height: 265px;
         border:1px solid #FBCBBC;
         border-radius: 150px;
-        margin-left: 180px;
+        margin-left: 200px;
+        position: absolute;
        
       }
     .softwaresection h2{
@@ -155,14 +156,16 @@
     }
 
     .softwaresection img{
-        margin-left: 50px;
+       
         margin-top: 10px;
+        transform: translate(60%, 0%);
     }
     .securitysection{
         background: url(../../assets/img/abstract-lines-bg-2.svg) no-repeat center;
         height: auto;
         background-color: #1A1513;
         background-size: 100% auto;  
+        overflow: hidden;
     }
     .securitysection h2
     {
@@ -184,12 +187,20 @@
         font-size: 22px;
         color: white; 
     }
+    #circle3{
+        position: absolute;
+        width: 70px;
+        height: 70px;
+        background: #3C2821;
+        border-radius: 50px;
+        margin-left: 20px;
+    }
     .verticalLine {
         height: 300px;
         border-right: 1px solid #B1B1B1;
-        position: absolute;
         right: 50%;
     }
+   
     .moreservicessection h4{
         font-family: 'Fira Code', monospace;
         font-weight: 400;
@@ -208,6 +219,7 @@
         background-color: #1A1513;
         background-size: auto;
         padding-block: 96px;
+        overflow: hidden;
     }
     .summerysection h2{
         font-family: 'Fira Code', monospace;
@@ -227,16 +239,18 @@
         font-family: 'Fira Sans', sans-serif;
         font-style: normal;
         font-weight: 300;
-        font-size: 20px;
+        font-size: 24px;
         color: white;
         text-align: left;
+      margin-right: 100px;
+      
     }
 
     .summerysection img{
-        width: 300px;
-        height: 300px;
+        width: 265px;
+        height: 265px;
         border-radius: 200px;
-        margin-left: 160px;
+        transform: translate(60%, 5%);
      
     }
     .talktoussection h1{
@@ -266,3 +280,4 @@
         margin-left: 160px;
         text-align: left;
     }
+ 
