@@ -7,27 +7,25 @@
         <div class="logo">
           <img src="../../../assets/img/logo.svg" href="/">
         </div>
-    </div>
-    <div class="col-md-9 col-sm-9 col-9 text-end">
-      <div class="menu_icon" (click)="openMenu()">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-      <div class="menu" [class.menuClass]="menuVariable">
-        <ul>
-         
-          <li class="nav-item"><a class="nav-link" routerLink="/AboutUs">Why Us</a></li>
-          <li class="nav-item"><a class="nav-link" routerLink="/Services">Services</a></li>
-          <li class="nav-item"><a class="nav-link" routerLink="/Blog">Blog</a></li>
-          
-          <li class="nav-item" id="contact-btn"><a class="nav-link" routerLink="/ContactUs">Contact Us</a></li>
         
-         
-        </ul>
+      </div>
+      <div class="col-md-9 col-sm-9 col-9 text-end">
+        <div class="menu_icon" (click)="openMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu" [class.menuClass]="menuVariable">
+          <ul>
+            <li class="nav-item"><a class="nav-link" routerLink="/AboutUs">Why Us</a></li>
+            <li class="nav-item"><a class="nav-link" routerLink="/Services">Services</a></li>
+            <li class="nav-item"><a class="nav-link" routerLink="/Blog">Blog</a></li>
+            
+            <li class="nav-item" id="contact-btn"><a class="nav-link" routerLink="/ContactUs">Contact Us</a></li>
+          </ul>
+        </div>
       </div>
     </div>
-  </div>
   </div>
 </header>
 
