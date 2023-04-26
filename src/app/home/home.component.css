@@ -35,7 +35,15 @@
         text-decoration: underline;
         text-decoration: underline solid #F15A29 10px;
 
-    }   
+    }  
+    
+    .btn-group{
+        margin-left: 160px;
+        text-align: left;
+    }
+    .btn-group1{
+        margin-left: 100px;
+    }
    .btn-solutions{
           color: #262120;
           border: 2px;
@@ -139,7 +147,7 @@
         background: #3C2821;
         border-radius: 150px;
         margin-left: 130px;
-       
+        overflow: hidden;
       
       }
       #circle2 {
@@ -150,7 +158,7 @@
         border-radius: 150px;
         margin-left: 200px;
         position: absolute;
-       
+        overflow: hidden;
       }
     .softwaresection h2{
         font-family: 'Fira Code', monospace;
@@ -201,13 +209,17 @@
         font-size: 22px;
         color: white; 
     }
+
+    .securitysection img{
+        margin-left: 40px;
+    }
     #circle3{
         position: absolute;
         width: 70px;
         height: 70px;
         background: #3C2821;
         border-radius: 50px;
-        margin-left: 20px;
+        margin-left: 60px;
     }
     .verticalLine {
         height: 300px;
@@ -297,6 +309,11 @@
         margin-left: 160px;
         text-align: left;
     }
+    .line{
+        margin-left:160px;
+        margin-right:160px;
+        border: 1px solid #FBCBBC;
+    }
     @media only screen and (max-width: 800px){
         .headersection h1{
             font-size: 40px;
@@ -311,20 +328,52 @@
         .cloudsection h1 , .softwaresection h1 , .securitysection h1{
             font-size: 40px;
         }
+        .btn-group, .summerysection .btn-solutions, .summerysection h2, .summerysection h3,  .line{
+            margin-left: 20px;
+        }
+        .btn-group1{
+            margin-left: 5px;
+        }
+        .summerysection p{
+            margin-top: 30px;
+            margin-left: 20px;
+        }
         .moreservicessection h4{
             margin-left: 30px;
             margin-right: 30px;
         }
-        .summerysection h2, .summerysection h3{
-            margin-left: 20px;
-        }
         .summerysection p{
             font-size: 20px;
         }
- 
-
         .talktoussection h1,.talktoussection h2,.talktoussection p{
             margin-left: 20px;
             text-align: left;
         }
+
+          #circle1 {
+            position: absolute;
+            width: 200px;
+            height: 200px;
+            background: #3C2821;
+            border-radius: 100px;
+            margin-left: 20px;
+          }
+          #circle2 { 
+            width: 200px;
+            height: 200px;
+            border:1px solid #FBCBBC;
+            border-radius: 100px;
+            position: absolute;
+           margin-left: 100px;
+
+          }
+          .summerysection img{
+            width: 200px;
+            height: 200px;
+            border-radius: 100px;
+            transform: translate(30%, 0%);
+            filter: opacity(0.5) drop-shadow(0 0 #F15A29);
+        }
+
+     
     }

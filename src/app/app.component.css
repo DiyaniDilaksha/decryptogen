@@ -54,12 +54,13 @@ header{
 @media only screen and (max-width: 800px){
   .menu{
       position: fixed;
-      right: -280px;
+      right: -490px;
       top: 64px;
-      background: #1A1513;
-      width: 280px;
-      height: 100%;
-     
+      background-color: #15110F;
+      width: 490px;
+      height: 55%;
+      border-radius: 20px;
+      padding: 2rem;
   }
   
   .menu ul li{
@@ -67,6 +68,7 @@ header{
     text-align: center;
     margin: 0;
     padding: 10px 0 10px 26px;
+    margin-top: 20px;
   }
 
   .menu_icon{
@@ -82,10 +84,17 @@ header{
     display: block;
   }
   .menu_icon span:nth-child(2){
-    margin: 4px 0;
+    margin: 7px 0;
   }
   .menuClass{
     right: 0;
     transition: 0.4s ease-in-out;
+  }
+
+  #contact-btn{
+    margin-left: 150px;
+    width: 140px;
+    text-align: center;
+    margin-top: 20px;
   }
   }
