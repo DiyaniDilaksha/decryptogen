@@ -86,7 +86,6 @@
      /*cloud section*/
     .cloudsection h1 , .softwaresection h1 , .securitysection h1{      
         text-align: center;
-        margin-top: 100px;
         color: #F15A29;
         font-family: 'Fira Code', monospace;
         font-weight: 600;
@@ -95,7 +94,7 @@
     .cloudsection p , .softwaresection p, .securitysection p{
         font-family: 'Fira Sans', sans-serif;
         font-weight: 300;
-        font-size: 22px;
+        font-size:1.375rem;
         text-align: center;
         color: #1A1513;
         line-height: 36px;
@@ -138,7 +137,7 @@
         height: 80px;
         background: #FBCBBC;
         border-radius: 50px;
-      
+        margin-left: 15px;
       }
       #circle1 {
         position: absolute;
@@ -178,7 +177,9 @@
     }
 
     .softwaresection img{
-       
+        width: 60px;
+        height: 60px;
+        margin-left: 15px;
         margin-top: 10px;
         transform: translate(60%, 0%);
     }
@@ -189,6 +190,7 @@
         background-size: 100% auto;  
         overflow: hidden;
     }
+
     .securitysection h2
     {
         font-family: 'Fira Code', monospace;
@@ -203,7 +205,7 @@
         font-size: 16px;
         color: #FEB39A;
     }
-    .securitysection p{
+    .securitysection p, .securitysection1 p{
         font-family: 'Fira Sans', sans-serif;
         font-weight: 300;
         font-size: 22px;
@@ -211,15 +213,17 @@
     }
 
     .securitysection img{
-        margin-left: 40px;
+        margin-left: 35px;
+        margin-top: 30px;
     }
     #circle3{
         position: absolute;
-        width: 70px;
-        height: 70px;
+        width: 80px;
+        height: 80px;
         background: #3C2821;
         border-radius: 50px;
         margin-left: 60px;
+        margin-top: 20px;
     }
     .verticalLine {
         height: 300px;
@@ -289,6 +293,7 @@
         text-align: left;
         color: #2B2B2B;
         margin-left: 160px;
+        margin-top: 20px;
     }
 
     .talktoussection h2{
@@ -314,6 +319,10 @@
         margin-right:160px;
         border: 1px solid #FBCBBC;
     }
+    .card{
+        border: none;
+    }
+    
     @media only screen and (max-width: 800px){
         .headersection h1{
             font-size: 40px;
@@ -328,12 +337,17 @@
         .cloudsection h1 , .softwaresection h1 , .securitysection h1{
             font-size: 40px;
         }
-        .btn-group, .summerysection .btn-solutions, .summerysection h2, .summerysection h3,  .line{
+        .btn-group, .summerysection .btn-solutions, .summerysection h2, .summerysection h3{
             margin-left: 20px;
+        }
+        .line{
+            margin-left: 20px;
+            width: 450px;
         }
         .btn-group1{
             margin-left: 5px;
         }
+      
         .summerysection p{
             margin-top: 30px;
             margin-left: 20px;
@@ -374,6 +388,6 @@
             transform: translate(30%, 0%);
             filter: opacity(0.5) drop-shadow(0 0 #F15A29);
         }
-
      
+   
     }
