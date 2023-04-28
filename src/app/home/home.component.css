@@ -216,6 +216,36 @@
         margin-left: 35px;
         margin-top: 30px;
     }
+    .securityItemsWrapper {
+        margin-top: 5rem;
+    }
+    .securityItem {
+        position: relative;
+        width: 100%;
+        display: flex;
+        padding-bottom: 2.5rem;
+        gap: 1.5rem;
+        
+    }
+    .securityItemIcon img{
+        margin-left: -65px;
+        margin-bottom: 30px;
+    }
+    .securityItemIcon{
+        background-color: #3C2821;
+        display: grid;
+        place-content: center;
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        z-index: 2;
+        flex-shrink: 0;
+        margin-left: 70px;
+    }
+    .securityItemDescription{
+        flex-grow: 1;
+        text-align: left;
+    }
     #circle3{
         position: absolute;
         width: 80px;
@@ -371,6 +401,7 @@
             background: #3C2821;
             border-radius: 100px;
             margin-left: 20px;
+
           }
           #circle2 { 
             width: 200px;
@@ -380,6 +411,7 @@
             position: absolute;
            margin-left: 100px;
 
+
           }
           .summerysection img{
             width: 200px;
@@ -387,6 +419,7 @@
             border-radius: 100px;
             transform: translate(30%, 0%);
             filter: opacity(0.5) drop-shadow(0 0 #F15A29);
+
         }
      
    
