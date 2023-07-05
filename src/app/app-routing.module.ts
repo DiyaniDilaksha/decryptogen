@@ -9,10 +9,10 @@ import { ServicesComponent } from './services/services.component';
 
 const routes: Routes = [
   { path: '', component:HomeComponent},
-  // { path: 'AboutUs', component:AboutUsComponent },
-  // { path: 'Services', component:ServicesComponent },
-  // { path: 'Blog', component:BlogComponent},
-  // { path: 'ContactUs', component:ContactUsComponent }
+  { path: 'AboutUs', component:AboutUsComponent },
+  { path: 'Services', component:ServicesComponent },
+  { path: 'Blog', component:BlogComponent},
+  { path: 'ContactUs', component:ContactUsComponent }
 ];
 
 @NgModule({
